@@ -1,5 +1,8 @@
 <!-- Create New Project -->
-composer create-project codeigniter4/appstarter p8-akademik-ci4 --no-dev
+composer create-project codeigniter4/appstarter p9-akademik-ci4 --no-dev
+
+<!-- Copy .env File -->
+cp env .env
 
 <!-- Show All Commands -->
 php spark -h
@@ -17,4 +20,4 @@ composer --version
 php -m
 
 <!-- Create a New Controller -->
-php spark make:controller MahasiswaController
+php spark make:controller DashboardController

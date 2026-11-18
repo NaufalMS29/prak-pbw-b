@@ -42,3 +42,40 @@ p8-akademik-ci4/
 ├─ preload.php          # file ini berisi kode untuk memuat library sebelum aplikasi dijalankan
 ├─ README.md            # file ini berisi dokumentasi aplikasi
 └─ spark                # file ini berisi perintah untuk menjalankan aplikasi
+
+
+
+p9-akademik-ci4/
+├─ app/
+│  ├─ Controllers/      
+│  │  ├─ BaseController.php
+│  │  ├─ DashboardController.php    # Ini yang baru ditambahkan
+│  │  ├─ Home.php
+│  │  └─ MahasiswaController.php
+│  ├─ Models/           
+│  │  └─ ...
+│  └─ Views/            
+│     ├─ mahasiswa/
+│     │  ├─ create.php
+│     │  └─ index.php
+│     └─ dashboard.php              # Ini yang baru ditambahkan
+├─ public/
+│  └─ css/
+│     └─ style.css                  # Ini yang baru ditambahkan
+├─ tests/               
+│  └─ ...
+├─ vendor/              
+│  └─ ...
+├─ writable/            
+│  └─ ...         
+└─ builds              
+
+
+public/
+├─ css/
+│  └─ style.css
+├─ .htaccess
+├─ favicon.ico
+├─ index.php
+└─ robots.txt
+
